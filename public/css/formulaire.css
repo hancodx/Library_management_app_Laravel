@@ -1,0 +1,51 @@
+form.custom-form-style {
+	margin: auto;
+	width: 100%;
+	background-color: #e1edeb;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	height: fit-content;
+
+}
+
+form.custom-form-style label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+form.custom-form-style textarea,
+   form.custom-form-style input[type="text"],
+   form.custom-form-style input[type="email"],
+   form.custom-form-style input[type="date"],
+   form.custom-form-style select {
+	width: 100%;
+	padding: 5px 12px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #126e62;
+	background-color: #e1edeb;
+	color: #126e62;
+	outline: none; /* Remove the outline */
+}
+
+form.custom-form-style input[type="submit"] {
+	background-color: #6ba49d;
+	color: #e1edeb;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+form.custom-form-style input[type="submit"]:hover {
+	background-color: #89b6b1;
+}
+
+   form.custom-form-style label .choix {
+	font-weight: 200;
+}
